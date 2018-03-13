@@ -6,7 +6,7 @@ function myTwoSum(arr, value) {
       if (arr[i] + arr[j] === value) {
         indices.push([arr[i], arr[j]]);
       } else {
-        null;
+        return;
       }
     }
   }
